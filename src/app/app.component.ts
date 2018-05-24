@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  showTemplate: boolean = false;
+  public showTemplate: boolean = false;
   public shared: SharedService;
   
   constructor() {
